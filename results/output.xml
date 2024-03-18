@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.0 (Python 3.12.2 on win32)" generated="2024-03-17T22:24:18.330522" rpa="false" schemaversion="5">
+<suite id="s1" name="Desktop Automacao" source="C:\Users\nothing\Desktop\.vscode\Automações\Robot_Framework\Desktop_Automacao">
+<suite id="s1-s1" name="Tests" source="C:\Users\nothing\Desktop\.vscode\Automações\Robot_Framework\Desktop_Automacao\tests">
+<suite id="s1-s1-s1" name="Venda-Pdv" source="C:\Users\nothing\Desktop\.vscode\Automações\Robot_Framework\Desktop_Automacao\tests\venda-pdv.robot">
+<kw name="Inicia Sessão" owner="base" type="SETUP">
+<kw name="Carrega os ELementos do App" owner="base">
+<kw name="Add Image Path" owner="SikuliLibrary">
+<arg>${EXECDIR}\\resources\\elements</arg>
+<doc>Add image path</doc>
+<status status="PASS" start="2024-03-17T22:24:22.857661" elapsed="0.033184"/>
+</kw>
+<status status="PASS" start="2024-03-17T22:24:22.854874" elapsed="0.036963"/>
+</kw>
+<kw name="Click" owner="SikuliLibrary">
+<msg time="2024-03-17T22:24:23.913484" level="INFO" html="true">&lt;img src='sikuli_captured/sikuliximage-1710725063495.png'/&gt;
+[log] CLICK on L[1038,1050]@S(0) (61 msec)</msg>
+<arg>icone-app.png</arg>
+<doc>Click</doc>
+<status status="PASS" start="2024-03-17T22:24:22.891837" elapsed="1.022650"/>
+</kw>
+<status status="PASS" start="2024-03-17T22:24:22.853918" elapsed="1.060569"/>
+</kw>
+<test id="s1-s1-s1-t1" name="Vender o melhor combo" line="10">
+<kw name="Log" owner="BuiltIn">
+<msg time="2024-03-17T22:24:23.918304" level="INFO">Não testei nada ainda</msg>
+<arg>Não testei nada ainda</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2024-03-17T22:24:23.917283" elapsed="0.001021"/>
+</kw>
+<kw name="Finaliza Teste" owner="base" type="TEARDOWN">
+<kw name="Capture Screen" owner="SikuliLibrary">
+<msg time="2024-03-17T22:24:25.963071" level="INFO" html="true">&lt;img src='sikuli_captured/sikuliximage-1710725064040.png'/&gt;</msg>
+<doc>Capture whole screen, file name is returned</doc>
+<status status="PASS" start="2024-03-17T22:24:23.925136" elapsed="2.038942"/>
+</kw>
+<kw name="Close Application" owner="SikuliLibrary">
+<arg>${nome_aplicação}</arg>
+<doc>Close application</doc>
+<status status="PASS" start="2024-03-17T22:24:25.964078" elapsed="0.025496"/>
+</kw>
+<status status="PASS" start="2024-03-17T22:24:23.921262" elapsed="2.069768"/>
+</kw>
+<status status="PASS" start="2024-03-17T22:24:23.914487" elapsed="2.076543"/>
+</test>
+<kw name="Encerrar Sessão" owner="base" type="TEARDOWN">
+<kw name="Stop Remote Server" owner="SikuliLibrary">
+<msg time="2024-03-17T22:24:26.001397" level="INFO">Robot Framework remote server stopping</msg>
+<doc>Stops the remote server.</doc>
+<status status="PASS" start="2024-03-17T22:24:25.995057" elapsed="0.007339"/>
+</kw>
+<status status="PASS" start="2024-03-17T22:24:25.994485" elapsed="0.007911"/>
+</kw>
+<doc>Suite de teste de venda no PDV</doc>
+<status status="PASS" start="2024-03-17T22:24:18.387391" elapsed="7.615005"/>
+</suite>
+<status status="PASS" start="2024-03-17T22:24:18.380798" elapsed="7.624833"/>
+</suite>
+<status status="PASS" start="2024-03-17T22:24:18.338830" elapsed="7.670568"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="Desktop Automacao">Desktop Automacao</stat>
+<stat pass="1" fail="0" skip="0" id="s1-s1" name="Tests">Desktop Automacao.Tests</stat>
+<stat pass="1" fail="0" skip="0" id="s1-s1-s1" name="Venda-Pdv">Desktop Automacao.Tests.Venda-Pdv</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
