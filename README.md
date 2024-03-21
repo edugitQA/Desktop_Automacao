@@ -41,4 +41,4 @@ Para executar os testes, navegue até o diretório raiz do projeto e execute o s
 
     TimeoutException: Timeout happened, could not find P(Screenshot_1.png) S: 0.8500000238418579
 
-    Apena verifique se sua resoluçao de tela está acima de 1280x1024
+    Apena configure sua resolução de tela para 1208x1024 ou inferior
