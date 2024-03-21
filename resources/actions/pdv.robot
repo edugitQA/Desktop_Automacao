@@ -1,6 +1,9 @@
 *** Settings ***
 Documentation     Ações de Venda no PDV
 
+
+Library     SikuliLibrary
+
 *** Keywords ***
 Abrir PDV
     click    menu-vendas.png 
@@ -9,6 +12,7 @@ Selecionar o Funcionario
 
     Press Special Key      F1
     Double Click            ${funcionario}.png
+
 Adicionar um Item
     [Arguments]    ${produto}    ${quantidade}
     Press Special Key    F3
